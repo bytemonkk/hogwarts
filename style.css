@@ -1,0 +1,123 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;    
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+
+.character {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.logo {
+    width: 410px;
+    height: 219px;
+    background-image: url("logo.png");
+    background-color: black;
+    /* opacity: 0.5; */
+    background-size: cover;
+    /* visibility: hidden; */
+}
+
+.navigationbar {
+    height: 55px;
+    position: absolute;
+    right: 0;
+    /* background-color: gray; */
+}
+
+ul a {
+    /* background-color: gray; */
+    /* opacity: 0.5; */
+    display: inline-block;
+    margin-right: 32px;    
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/*span {
+    color: #f9004d;
+}*/
+
+
+ul a:hover {
+    color: aqua;
+    transition: .4s;
+    cursor: pointer;
+}
+
+ul a:hover {
+    transform: scale(1.2s);
+}
+
+.hogwarts {
+    background-image: url("hogwarts.jpg");
+    background-position: center;
+    /* opacity: 0.5; */
+    position: absolute;
+    left: 40px;
+    bottom: 565px;
+    background-color: white;
+    width: 219px;
+    height: 219px;
+    border-radius: 15px;
+}
+
+.characters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#harry, #ron, #hermione {
+    
+    height: 319px;
+    width: 239px;
+    background-color: white;
+    color: white;
+    padding: 12px;
+    margin-right: 25px;
+    border: 3px solid;
+    border-radius: 12px;
+    border-color: white;
+    font-weight: bold;
+}
+
+
+#harry:hover,#ron:hover, #hermione:hover {
+    border-color: aqua;
+    transition: .4s;
+    cursor: pointer;
+}
+
+#harry:hover, #ron:hover, #hermione:hover {
+    color: aqua;
+    transition: .4s;
+    cursor: pointer;
+}
+
+#harry {
+    background-image: url("harry_img.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+#ron {
+    background-image: url("ron_img.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+#hermione {
+    background-image: url("hermione_img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+

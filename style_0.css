@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    background-image: url("bgimage.jpg");
+    color: rgba(0, 255, 255, 0.5);
+}
+
+p {
+    color: gray;
+}
+
+ul a {
+    /* background-color: gray; */
+    /* opacity: 0.5; */
+    display: inline-block;
+    margin-right: 22px;    
+    text-decoration: none; 
+}
+
+
+ul li {
+    color: gray;
+}
