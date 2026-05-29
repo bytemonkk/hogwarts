@@ -32,7 +32,13 @@ The project focuses on learning:
 * Frontend Development Fundamentals
 
 ---
+## Website Preview
 
+<p align="center">
+  <img src="assets/homepage.png" width="100%">
+</p>
+
+---
 ## Website Features
 
 * Multi-Page Website
